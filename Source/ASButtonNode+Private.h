@@ -7,7 +7,7 @@
 //
 
 #import <AsyncDisplayKit/ASButtonNode.h>
-#import <AsyncDisplayKit/ASTextNode.h>
+#import <AsyncDisplayKit/ASTextNode2.h>
 #import <AsyncDisplayKit/ASImageNode.h>
 #import <AsyncDisplayKit/ASStackLayoutDefines.h>
 
@@ -32,7 +32,7 @@
 
   CGFloat _contentSpacing;
   UIEdgeInsets _contentEdgeInsets;
-  ASTextNode *_titleNode;
+  ASTextNode2 *_titleNode;
   ASImageNode *_imageNode;
   ASImageNode *_backgroundImageNode;
 

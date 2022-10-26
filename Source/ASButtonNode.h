@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class ASImageNode, ASTextNode;
+@class ASImageNode, ASTextNode2;
 
 /**
  Image alignment defines where the image will be placed relative to the text.
@@ -26,7 +26,7 @@ typedef NS_ENUM(unsigned char, ASButtonNodeImageAlignment) {
 
 @interface ASButtonNode : ASControlNode
 
-@property (readonly) ASTextNode  * titleNode;
+@property (readonly) ASTextNode2  * titleNode;
 @property (readonly) ASImageNode * imageNode;
 @property (readonly) ASImageNode * backgroundImageNode;
 

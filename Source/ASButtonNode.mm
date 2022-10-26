@@ -47,11 +47,11 @@
   return self;
 }
 
-- (ASTextNode *)titleNode
+- (ASTextNode2 *)titleNode
 {
   ASLockScopeSelf();
   if (!_titleNode) {
-    _titleNode = [[ASTextNode alloc] init];
+    _titleNode = [[ASTextNode2 alloc] init];
     #if TARGET_OS_TV
       // tvOS needs access to the underlying view
       // of the button node to add a touch handler.
